@@ -1,0 +1,40 @@
+* {
+  font-family: "Lato", sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
+}
+#user-modal-image img,
+.card-img-top {
+  border-radius: 50%;
+}
+.card {
+  padding: 15px 15px 0;
+}
+.fa-male {
+  color: rgb(37, 150, 255);
+  margin-left: 5px;
+  margin-bottom: 2px;
+}
+.fa-female {
+  color: rgb(255, 129, 150);
+  margin-left: 5px;
+}
+h6 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.card a {
+  transition: 200ms linear;
+  opacity: 0.8;
+}
+.card a:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+.top-photo {
+  height: 530px;
+  background-image: url(獎學金.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+}
